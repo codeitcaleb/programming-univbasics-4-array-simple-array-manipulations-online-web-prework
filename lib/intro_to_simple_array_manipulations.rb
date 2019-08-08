@@ -26,23 +26,23 @@ def using_concat(Array1, Array2)
   Array1.concat(Array2)
 end
 
-def using_insert(Array)
-  
+def using_insert(Array, element)
+  Array.insert(element)
 end
 
-def using_uniq
-  
+def using_uniq(Array)
+  Array.uniq
 end
 
 def using_flatten(Array)
-  
+  Array.flatten
 end  
 
-def using_delete(Array)
-  
+def using_delete(Array, String)
+  Array.delete(String)
 end
 
-def using_delete_at(Array)
-  
+def using_delete_at(Array, Integer)
+  Array.delete(Integer)
 end
 
