@@ -11,38 +11,38 @@ def using_pop(Array)
 end  
 
 def pop_with_args(Array)
-  Array.pop[2]
+  Array.pop(2)
 end  
 
-def using_shift 
-  
+def using_shift(Array)
+  Array.shift 
 end 
 
-def shift_with_args
+def shift_with_args(Array)
+  Array.shift(2)
+end
+
+def using_concat(Array1, Array2)
+  Array1.concat(Array2)
+end
+
+def using_insert(Array)
   
 end
 
-def using_concat
+def using_uniq
   
 end
 
-def using_insert
-  
-end
-
-def using_uniq 
-  
-end
-
-def using_flatten
+def using_flatten(Array)
   
 end  
 
-def using_delete
+def using_delete(Array)
   
 end
 
-def using_delete_at
+def using_delete_at(Array)
   
 end
 
